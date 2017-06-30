@@ -89,7 +89,7 @@
     $(document).ready(function()
     {
         var $config = {
-            title               : '{{{ $topic->title }}} | Laravel China - PHP，Laravel的中文社区 #laravel# @phphub {{ $topic->user->id != 1 ? '@summer_charlie' : '' }} {{{ $topic->user->weibo_name ? '@'.$topic->user->weibo_name : '' }}}',
+            title               : '{{{ $topic->title }}} | 001 课堂 - 大学生零基础IT实战课堂 ,致力于为 移动互联网技术 H5 PHP Android iOS 开发者提供一个分享创造、结识伙伴、协同互助的平台。{{ $topic->user->id != 1 ? '@summer_charlie' : '' }} {{{ $topic->user->weibo_name ? '@'.$topic->user->weibo_name : '' }}}',
             wechatQrcodeTitle   : "微信扫一扫：分享", // 微信二维码提示文字
             wechatQrcodeHelper  : '<p>微信里点“发现”，扫一下</p><p>二维码便可将本文分享至朋友圈。</p>',
             sites               : ['weibo','wechat',  'facebook', 'twitter', 'google','qzone', 'qq', 'douban'],
